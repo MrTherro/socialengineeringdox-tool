@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>*UPDATE AND PATCHES*
+January 25th, 2019
+
++ Stability Update
++ Rework of overall appearance
+
+While working on the program I've discovered multiple bugs
+and problems that was fixed features will still be in development
+until further notice so below will be a list of things i will be working
+on the most.
+
+1: Vulnerability scanner
+2: Attack/ Record
+3: BannerGrabber
+4: Port Scanner
+5: Account Page
+_____________________________________________
+
+*UPDATES AND PATCHES*
+January 12, 2019
+
+Vulnerability Scanner will be worked on more often than the other
+options Settings and Attack/ Record will be worked on aswell I will
+be importing the attack options from the older version of SEDT.
+
+Version 1.1 Console Application             (Ark)
+Version 2.1 Windows form Application (Legacy)
+Version 3.1 Flat UI Variant                        (Voyager)
+
+As some of you are aware Project "Ark" is no longer available for
+download on my SF Page It will be updated through Project
+"Voyager" and will be kept up to date. also you wont be able to
+record info through Voyager for sometime while I ReDesign that
+Attack option so I highly Encourage you to download and use 
+Legacy for the time being when Voyager is ready to be used I will
+post it here for you to see.
+
++ Updated SEDT...
++ Redesigned Options and Info.
+_____________________________________________
+
+*UPDATES AND PATCHES*
+January 11, 2019
+
++ Attack options added (All specified has Extended Development Time)
+                SynFlood 
+                Port Scanner
+                Banner Grabber
+                Reverse Shell
+                SQLi/ Injection
+                Password Cracker
+                Vulnerability Scanner
+
++ Settings (Updated)
++ Update (Updated)
+_____________________________________________
+
+*UPDATES AND PATCHES*
+November 30, 2018
+
++ Home (Newstand/ Tech news)
++ File (Power/ Restart)
++ Console (Operational)
++ Donate (Operational)
+_____________________________________________
+
+*UPDATES AND PATCHES*
+November 29, 2018
+
+*MAJOR UPDATE*
+
+I am pleased to announce the newest version of SEDT! This
+version is a FlatUI Variant, and is more smooth and easier
+to navigate. While Im building this version, everything from 
+the older SEDT versions will be imported over to this version 
+of SEDT.
+
+Please be patient while I build this version it will take time, but
+in the meantime it will be available to use. It will be an
+**EXPERIMENTAL** **NON-FULLY DEVELOPED** version, so if
+you encounter bugs you know why :)
+
+I love you guys for all the help and support! Until next time.
+
+
+Happy Hunting!
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+November 26, 2018
+
++ Scanner (Tools&gt;Scanner)(In, Development)
++ Command Shell (Console&gt;Command Shell)( Functional)
++ Profiles (Settings&gt;Profiles)(In, Development)
++ Feedback (Settings&gt;Help&gt;Feedback)(Functional)
+-  Update (Console Application)(Deprecated)
+&gt; Moved Help Option (Contains About/ Update)
+&gt; Update (GUI)(Settings&gt;Help&gt;Update)
+&gt; About (Settings&gt;Help&gt;About
+
+The added options are not useable so trying to use them will result
+in NOTHING happening lol I’ve been thinking about it for a while 
+and I’ve decided to bring back the console application of SEDT and 
+use it as the command shell.
+
+This means I will be updating Sedt (Console Version) normally from 
+now on so the console and GUI versions will receive active updates
+also, this means I will be discontinuing the console application page
+on my source forge account starting New Years. with that said I will
+also, be updating the way Sedt updates and a slew of other things so
+until next time.
+
+Happy Hunting!
+_____________________________________________
+
+*UPDATES AND PATCHES*
+November 18, 2018
+
++ Restart (In Development) (You must press "X"  to restart the
+                                             program)
++ Donate Option (Complete)
++ Diagnostics (In Development)
++ Video Sidebar (Experimental)
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+September 17, 2018
+
++ Diagnostics (In development)
++ Video Sidebar (Experimental)
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+August 29, 2018
+
+Latest Update:
+
++ Virus Scanner (Update)
++ Update Window (updated)
++ Exit Indication Window (Added)
++ Designing/ Customization (Updated)
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+August 25, 2018
+
+Hello guys heres a new update!
+
++ Virus-Scanner (Functioning/ In Progress)
++ Contextual Menu ( Functioning/ In Progress)
++ YouTube Channel Side bar Links (In Porgress)
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+July 15, 2018
+
+Hello everyone sorry for the long hiatis ive been dealing
+with other problems and didnt have time to update the 
+program so here it is.
+
++ Resizing  added
++ Quick links (temporary name)
++ Updating Optimized
++ Program Optimized
++ Multiple bug fixes
++ Website (In development)
+
+So the reason i've been gone for so long is because i just
+moved to california and ive been working on my house
+and setting everything up so if i dont upload alot please 
+be patient soon when i have everyhting put together and
+theres not much to be worried about ill be back on the 
+schedule i had before. thank you if you understand im
+sorry if you dont.
+
+Thank you all for the support i couldnt do it without you guys!
+
+ill be making a video soon explaining everything.
+_____________________________________________
+
+*UPDATES AND PATCHES*
+June 11th, 2018
+
+Appearently there was a problem with my problem the
+program where I could not initiate a update what so ever
+so i got a new workstation and now its starting to work so
+now its functional.
+_____________________________________________
+
+*UPDATES AND PATCHES*
+April 9th, 2018
+
+I have not released many updates or patches since the last
+update this one will be a small update i added a "Restart"
+feature so if the program becomes buggy or unresponsive
+when you get the chance you can restart if that ever 
+becomes an issue it is HIGHLY recommended to restart 
+after every update. 
+
++ Feature Added: Restart
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+*MAJOR UPDATE*
+April 6th. 2018
+
+So there will be no more external apps opening with the
+program i placed webBrowsers inside SEDT so switching 
+between info is seemlessly easy. below you will find 
+everything changed about the program.
+
++ Attack option (Now a drop down menu)
++ Search and Lookup Options are now in Attack option menu
++ Search Options (Reworked/ Fixed/ Experimental)
++ Lookup Options (Reworked/ In Development)
++ Network Connectivity (Reworked/ Fixed/ Operational!)
++ Database (Reworked/ In Development)
++ Integrity check (Reworked/ In Development)
++ Alot more New Changes to come!
+
+= Search - All options in the menu now have a webbrowser to
+each option you choose so no longer will an external browser
+will be oened anymore.
+
+= Lookup - Im still working on this one so keep a look out.
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+April 4th, 2018
+
+[Error codes and Severity codes]
+================================
+[05] Exception/Normal.
+[00] SUCCESS!
+[02] FAILURE!
+[01] Unknown Event.
+[03] Exception/ Event unknown.
+[04] Failure but system completed task.
+================================
+
+Severity Codes/Levels
+=============================================
+[001]  Minor Exception: 	              severity level 10
+[002]  Minor/medium Exception: 	  severity level 20-30
+[003]  Medium Exception: 	              severity level 40
+[004]  Medium/major Exception: 	  severity level 50-60
+[005]  Major Exception:		  severity level 70
+[006]  Major/High Exception:	              severity level 80
+[007]  High Exception: 		  severity level 90
+[008]  Urgent Exception:	              severity level 100
+[009]  Network Problem:		   0 severity level
+[010]  Unknown Problem: Requires Debugging
+
+These codes are used to define the exceptions you get 
+in the log file if you have trouble finding out what they
+mean refer to this information.
+
+[04] you will encounter this error many times it more than
+likely will be the most common one this refers to a problem
+with programming and it is not on the users side so dont 
+worry about it.
+
+[05] this means an exception was caught and the problem
+was fixed and not in the slightest of importance its just for
+my reference.
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+April 3rd, 2018
+
+*PLEASE READ CAREFULLY*
+
+Today is the first day where i start implementing logging
+so i can better debug and find errors related to the program
+that is not always displayed keep in mind this logging is
+recording what options you use in sedt so if an error rises
+then i can find out what option(s) you used leading up to
+the error. You will be able to disable this, doing so will
+attempt a deletion on startup and exit of the "log.dat" file
+
+I highly encorage to keep the logging enabled so if 
+something does happen you can send me the log file and i
+can figure out whats going on, or what error occured.
+
+I CANNOT OBTAIN THE LOG FILE ON MY OWN I NEED YOU
+TO SEND IT TO ME IF YOU REQUIRE ASSITANCE.
+
++ logging (Experimental)
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+April 2nd, 2018
+
+A NEW update has been released which is this one you will
+be able to only run one instance of SEDT from now on this
+is one of the first hotfixes of many updates you guys will
+receive.
+
++ Instance Fix (running more than one instance of sedt)
++ Logging of updates and any other exceptions or errors
++ More to come.
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+April 1st, 2018
+
+So I've been gone for a while and yeah kinda cause ive
+been gone doing things... so now im back its april and
+my wife has tried the baby thingy on me today so yeah
+thats cool. lol uhm below is a list of the stuff thats gonna.
+well im gonna attempt to fix in the next upcoming
+updates.
+
++Just the overall functionality of the program.
+
+these where a couple of options i didnt get a chance to
+update/fix before i left so here they are
+
++Advanced Options (In Dev)
++IPAddress Lookup (In Dev)
++Networking Tools (In Dev) *May no longer be in dev
+                                                and may also be Removed!*
+
+=Attack Options (Experimental) *Main Focus*
+=Search Options (Experimental) *Main Focus*
+=Lookup Options (Experimental) *Main Focus*
+
+ | Sentinel        =   Not currently working on.
+ | Guardian      =    Working on it.
+ | Acquisition   =   Working on it.
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+March 30th, 2018
+
++Im back. :)
+
+expect updates and more to come.
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+September 15th, 2017
+
++ Update GUI
++ Changes to the GUI
++ Changing mostly small things
+
+So i haven't update sedt in a while the console application 
+of sedt one of the options will be discontinued after
+one more update its gonna be a major update so yeah look
+out for that everything else. im gonna be working on 
+SEDTGUI mostly for the time being. so dont worry it'll keep
+getting updated, most of stuff changing is just small things 
+like the or something else updating the gui and the update 
+option will be updated anything major will be held off for 
+the time being so yeah just gimme some time so i can get 
+back into this its been a while lol.
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+ August 17th, 2017
+
++ Updated the update option.
++ Fixed the lookup options not clearing after new search
+
+_____________________________________________
+
+*UPDATES AND PATCHES*
+ August 8th, 2017
+
++ Advanced Options (in Development)
++ IPAddress Lookup (in Deveopment)
++ Networking Tools (in Development)
+= Attack Options (Experimental)
+= Search Options (Experimental)
+= Lookup Options (Experimental)
+
+So i've added some advacned options on the main menu 
+strip of Social Engineering Dox-Tool, none of the options
+work as of yet im still working on that and testing other
+tools such as "Attack, Search, and Lookup" Please be
+patient while i work on these problems.
+
+In a couple of weeks im going to be focusing completely 
+on the programs listed, so that means no more options will
+be added until these programs are either fully functional or
+or in experimental that means all of them!
+
+&gt; Verify (Developing/ Functional)
+&gt; Search (Developing/ Functional)
+&gt; Lookup (Developing/ Functional)
+&gt; Database (in Development)
+&gt; Geolocation (in Development)
+&gt; Integcheck (in Development)
+
+--------------------ADDITIONAL INFO------------------------
+
+Any questions or concerns please dont hesistate to
+contact me.
+
+Everything you see that says "in Development" im 
+working on as of this moment and they'll be avalible
+for you to use but it may not function properly so if
+you get a problem with a option just know that im
+still working on it. Experimental means you can still
+use the program you might encounter bugs so dont
+be sad if you do. in Progress , Still Functional Means
+you can stil use the program ill just be making minor
+changes to it.
+
+If you have any questions or concerns visit my social
+media and DM me or Comment on my YouTube
+channel or My SourceForge page.
+
+https://sourceforge.net/u/fraggout23/profile/</value>
+  </data>
+</root>
